@@ -1,0 +1,149 @@
+﻿<!doctype html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<title>Cortinas Roller - Contacto</title>
+
+<link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="logo">A&L-Cortinas Actuales</div>
+
+<nav class="main-nav">
+
+<a href="index.html">Inicio</a>
+
+<a href="articulo.html">Productos</a>
+
+<a href="contacto.html">Contacto</a>
+
+</nav>
+
+</header>
+
+
+
+
+<main class="container">
+
+<h1>Contacto / Cotización</h1>
+
+
+
+
+<form id="contactForm" novalidate>
+
+<div class="form-row">
+
+<label for="nombre">Nombre *</label>
+
+<input id="nombre" name="nombre" type="text" maxlength="50" required />
+
+<div class="error" id="error-nombre"></div>
+
+</div>
+
+
+
+
+<div class="form-row">
+
+<label for="email">Email *</label>
+
+<input id="email" name="email" type="email" maxlength="80" required />
+
+<div class="error" id="error-email"></div>
+
+</div>
+
+
+
+
+<div class="form-row">
+
+<label for="telefono">Teléfono *</label>
+
+<input id="telefono" name="telefono" type="text" maxlength="20" required />
+
+<div class="error" id="error-telefono"></div>
+
+</div>
+
+
+
+
+<div class="form-row">
+
+<label for="producto">Producto de interés</label>
+
+<select id="producto" name="producto">
+
+<option value="screen">Screen</option>
+
+<option value="blackout">Blackout</option>
+
+<option value="traslucida">Traslúcida</option>
+
+</select>
+
+</div>
+
+
+
+
+<div class="form-row">
+
+<label for="mensaje">Mensaje</label>
+
+<textarea id="mensaje" name="mensaje" maxlength="500" rows="5"></textarea>
+
+<div class="error" id="error-mensaje"></div>
+
+</div>
+
+
+
+
+<div class="form-actions">
+
+<button type="submit">Enviar</button>
+
+<button type="reset" id="resetBtn" class="secondary">Limpiar</button>
+
+</div>
+
+</form>
+
+
+
+
+<section id="result" aria-live="polite" class="result"></section>
+
+</main>
+
+
+<footer class="site-footer">
+
+<p>© 2025 RollerShop</p>
+
+</footer>
+
+
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
